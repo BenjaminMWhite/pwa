@@ -23,7 +23,7 @@ module.exports = () => {
     new WebpackPwaManifest({
       name: 'My Progressive Web App',
       short_name: 'MyPWA',
-      description: 'My titifying Web App',
+      description: 'My awesome Progressive Web App!',
       background_color: '#ffffff',
       publicPath: "/",
       start_url: "/",
@@ -32,7 +32,7 @@ module.exports = () => {
         {
           src: path.resolve('./src/images/logo.png'),
           sizes: [96, 128, 192, 256, 384, 512], // multiple sizes
-          destination:path.join("assests","icons")
+          destination:path.join("assets","icons")
         }
        
       ]
